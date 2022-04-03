@@ -1,0 +1,30 @@
+@startuml
+
+autonumber
+hide footbox
+skinparam responseMessageBelowArrow true
+
+collections "Sensor(s)" AS SEN
+participant "Weather Station" as WS
+participant "Weather Data" as WD
+collections "Display(s)" as DIS
+
+group When there is update data by sensor
+SEN -> WS: push update data
+WS -> WD: update the state of data object
+end
+
+group When displays want to know if there is updated data
+DIS -> WD: polling for new state? for N-times
+return usually no update
+note over WD, DIS
+polling is relative expensive
+push / pull is better
+end note
+
+DIS -> WD: polling for new state?
+return updated data
+end
+
+
+@enduml

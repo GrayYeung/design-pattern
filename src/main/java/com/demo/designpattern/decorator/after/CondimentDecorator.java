@@ -14,4 +14,11 @@ public abstract class CondimentDecorator extends Beverage {
 
     // inheritance to implement cost()
 
+    /*
+    // TODO: One possible change: introduce size
+	public Size getSize() {
+		return beverage.getSize();
+	}
+	*/
+
 }

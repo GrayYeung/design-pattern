@@ -7,3 +7,6 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 
 - [x] Strategy
 - [x] Observer
+- [x] Decorator
+- [x] Factory - Factory Method, Abstract Factory
+- [ ] Singleton

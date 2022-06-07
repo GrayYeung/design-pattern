@@ -9,4 +9,5 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Observer
 - [x] Decorator
 - [x] Factory - Factory Method, Abstract Factory
-- [ ] Singleton
+- [x] Singleton
+- [ ] Command

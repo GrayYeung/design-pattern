@@ -12,4 +12,5 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Singleton
 - [x] Command
 - [x] Adapter
-- [ ] Facade
+- [x] Facade
+- [ ] Template

@@ -11,4 +11,5 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Factory - Factory Method, Abstract Factory
 - [x] Singleton
 - [x] Command
-- [ ] Adapter
+- [x] Adapter
+- [ ] Facade

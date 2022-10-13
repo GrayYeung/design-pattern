@@ -13,4 +13,4 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Command
 - [x] Adapter
 - [x] Facade
-- [ ] Template
+- [x] Template Method

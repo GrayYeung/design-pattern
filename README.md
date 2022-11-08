@@ -15,4 +15,4 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Facade
 - [x] Template Method
 - [x] Iterator
-- [ ] Composite
+- [x] Composite

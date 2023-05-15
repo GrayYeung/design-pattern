@@ -17,3 +17,5 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] Iterator
 - [x] Composite
 - [x] State
+
+- [x] Bridge

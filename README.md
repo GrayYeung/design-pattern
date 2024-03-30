@@ -19,3 +19,4 @@ With reference to the book, Head First Design Patterns: Building Extensible and 
 - [x] State
 
 - [x] Bridge
+- [x] Visitor

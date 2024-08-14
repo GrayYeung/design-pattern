@@ -15,6 +15,6 @@ public class Bank extends Client {
 
     @Override
     public void accept(Visitor visitor) {
-        visitor.visitBank(this); // redirect to visitorBank with reference of this Bank object
+        visitor.visit(this); // redirect to visitorBank with reference of this Bank object
     }
 }

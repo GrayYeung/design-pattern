@@ -13,6 +13,7 @@ public abstract class Client {
     private final String number;
 
     /**
+     * Double Dispatch:
      * Let subclass to decide how to redirect the request to visitor.
      */
     public abstract void accept(Visitor visitor);

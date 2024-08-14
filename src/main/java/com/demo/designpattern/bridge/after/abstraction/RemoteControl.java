@@ -5,8 +5,12 @@ import com.demo.designpattern.bridge.after.implementor.factory.TVFactory;
 
 /**
  * Can also use to solve Class explosion on Cartesian Product.
+ * This abstraction provides high-level control logic.
  */
 public abstract class RemoteControl {
+    /**
+     * The bridge
+     */
     TV tv;
     TVFactory tvFactory;
 

@@ -4,6 +4,9 @@ import com.demo.designpattern.bridge.after.abstraction.GenericRemote;
 import com.demo.designpattern.bridge.after.abstraction.SpecialRemote;
 import com.demo.designpattern.bridge.after.implementor.factory.TVFactory;
 
+/**
+ * The client links the abstraction object with one of the implementation objects.
+ */
 public class Client {
     public static void main(String[] args) {
         TVFactory tvFactory = new TVFactory();

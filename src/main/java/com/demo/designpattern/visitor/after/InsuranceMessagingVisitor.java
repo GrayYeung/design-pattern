@@ -10,22 +10,22 @@ import com.demo.designpattern.visitor.after.model.Restaurant;
  */
 public class InsuranceMessagingVisitor implements Visitor {
     @Override
-    public void visitBank(Bank bank) {
+    public void visit(Bank bank) {
         System.out.println("Sending email about thief insurance");
     }
 
     @Override
-    public void visitCompany(Company company) {
+    public void visit(Company company) {
         System.out.println("Sending email about employees insurance");
     }
 
     @Override
-    public void visitResident(Resident resident) {
+    public void visit(Resident resident) {
         System.out.println("Sending email about medical insurance");
     }
 
     @Override
-    public void visitRestaurant(Restaurant restaurant) {
+    public void visit(Restaurant restaurant) {
         System.out.println("Sending email about fire insurance");
     }
 }
